@@ -22,12 +22,13 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.dirname(SCRIPT_DIR))
 
 ascii_art_banner = r"""
- __ )              |                                |         
- __ \    _` |   _` |   __|   _ \   __|   __|   _ \  __|   __| 
- |   |  (   |  (   | \__ \   __/  (     |      __/  |   \__ \ 
-____/  \__,_| \__,_| ____/ \___| \___| _|    \___| \__| ____/ 
+ ______   ______   _____    ______   ______  ______  ______   ______ _______  ______ 
+| |  | \ | |  | | | | \ \  / |      | |     | |     | |  | \ | |       | |   / |     
+| |--| < | |__| | | |  | | '------. | |---- | |     | |__| | | |----   | |   '------.
+|_|__|_/ |_|  |_| |_|_/_/   ____|_/ |_|____ |_|____ |_|  \_\ |_|____   |_|    ____|_/
 """
-
+ascii_art_banner_slogan = r"""                [ Because Some Secrets Are Just Too Bad to Keep. ]
+"""
 
 def print_version():
     try:
@@ -134,6 +135,7 @@ def main():
 
     if colorenabled:
         print_status(ascii_art_banner, color="green")
+        print_status(ascii_art_banner_slogan, color="white")
 
     else:
         print(ascii_art_banner)
