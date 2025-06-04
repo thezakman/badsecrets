@@ -1,6 +1,14 @@
 # badsecrets
 
-<p align="left"><img width="300" height="300" src="https://user-images.githubusercontent.com/24899338/223151619-6859bc93-1fe2-47c7-86a6-ecaa6b495ece.png"></p>
+<!-- <p align="left"><img width="300" height="300" src="https://user-images.githubusercontent.com/24899338/223151619-6859bc93-1fe2-47c7-86a6-ecaa6b495ece.png"></p> -->
+```
+     ______   ______   _____    ______   ______  ______  ______   ______ _______  ______
+    | |  | \ | |  | | | | \ \  / |      | |     | |     | |  | \ | |       | |   / |
+    | |--| < | |__| | | |  | | '------. | |---- | |     | |__| | | |----   | |   '------.
+    |_|__|_/ |_|  |_| |_|_/_/   ____|_/ |_|____ |_|____ |_|  \_\ |_|____   |_|    ____|_/
+
+                    [ Because Some Secrets Are Just Too Bad to Keep. ]
+```
 
 [![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![License](https://img.shields.io/badge/license-GPLv3-f126ea.svg)
